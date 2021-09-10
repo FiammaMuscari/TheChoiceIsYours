@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image"  href="img/matrixlogo.ico">
+
+    <title>Matrix</title>
+</head>
+<body>
+    <div class="container-pastillas">
+        <h3>ES DECISIÓN TUYA</h3>
+        <div class="imagenes-pastillas" >
+            <button>
+                <a href="#" onclick="toggle();"><img class="pastilla" src="img/pastillaroja.png" alt=""></a>
+            </button>
+            <button>
+                <a href="#"onclick="toggle2();"><img class="pastilla" src="img/pastillaazul.png" alt=""></a>
+            </button>
+        </div>
+    </div> <!--fin pastillas-->
+    <div class="container-video">
+        <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Pa_dOcZxDy8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="trailer">
+        <video src="img/pastilla roja.mp4" controls="true">
+        </video>
+        <img src="img/close.png" class="close" onclick="toggle();">
+    </div>
+    <div class="trailer2">
+        <video class="video2" src="img/pastilla azul.mp4" controls="true">
+        </video>
+        <img src="img/close.png" class="close" onclick="toggle2();">
+    </div>
+    <script type="text/javascript" src="script.js" ></script>
+</body>
+</html>
